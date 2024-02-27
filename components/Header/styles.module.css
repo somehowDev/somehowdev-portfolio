@@ -1,0 +1,57 @@
+.header {
+  background-color: #1f2937; /* Tailwind bg-gray-900 */
+  color: white;
+  padding: 1rem; /* Tailwind p-4 */
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 72rem; /* Tailwind max-w-6xl */
+  height: 2.5rem; /* Tailwind h-10 */
+  margin: 0 auto;
+}
+
+.menuButton {
+  display: block; /* 모바일 뷰에서는 버튼이 보이도록 설정 */
+  position: relative;
+  z-index: 30;
+}
+
+.menu {
+  display: flex;
+  gap: 12px;
+  background-color: #1f2937; /* Tailwind bg-gray-900 */
+  /* Additional styles for transition and visibility */
+}
+
+.menuHamburger {
+  display: flex;
+  flex-direction: column; /* Tailwind flex-col */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #1f2937; /* Tailwind bg-gray-900 */
+  /* Additional styles for transition and visibility */
+}
+.hidden {
+  display: none;
+}
+
+/* Header.module.css에 추가 */
+@media (min-width: 768px) {
+  .menuButton {
+    display: none; /* 데스크탑에서는 햄버거 버튼 숨김 */
+  }
+  .menuHamburger,
+  .menu {
+    display: flex !important; /* 데스크탑 화면에서 메뉴 항상 표시 */
+    flex-direction: row !important;
+    position: static !important; /* absolute 위치 제거 */
+  }
+}

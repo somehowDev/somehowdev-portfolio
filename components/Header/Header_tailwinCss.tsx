@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./styles.module.css";
 
-export default function Header() {
+export default function Header22() {
   // 메뉴 상태를 관리하기 위한 상태 변수와 설정 함수
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -26,13 +26,13 @@ export default function Header() {
   }, []); // 빈 배열을 넘겨주어 컴포넌트가 마운트될 때만 이펙트 실행
 
   return (
-    <header className={styles.header}>
-      <div className={styles.container}>
+    <header className="bg-gray-900 text-white p-4 relative">
+      <div className="container mx-auto flex justify-between items-center max-w-6xl h-10">
         <div className="text-lg font-bold">My Portfolio</div>
         <div>
           <button
-            className={styles.menuButton}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden z-30"
           >
             <svg
               className="w-6 h-6"
@@ -50,9 +50,9 @@ export default function Header() {
             </svg>
           </button>
           <nav
-            className={`${isMenuOpen ? styles.menuHamburger : styles.hidden} ${
-              styles.menu
-            }`}
+            className={`${
+              isMenuOpen ? "flex" : "hidden"
+            } md:flex flex-col md:flex-row md:space-x-4 absolute top-full left-0 right-0 mx-auto w-full bg-gray-900 md:static md:bg-transparent z-20 transition-transform duration-300 ease-in-out`}
           >
             <Link href="/" className="hover:text-gray-300 py-2 text-center">
               Home
