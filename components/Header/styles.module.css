@@ -1,8 +1,9 @@
 .header {
-  background-color: #1f2937; /* Tailwind bg-gray-900 */
-  color: white;
+  background-color: #090917; /* Tailwind bg-gray-900 */
+  color: #f2f3f4;
   padding: 1rem; /* Tailwind p-4 */
   position: relative;
+  z-index: 1000;
 }
 
 .container {
@@ -23,7 +24,6 @@
 .menu {
   display: flex;
   gap: 12px;
-  background-color: #1f2937; /* Tailwind bg-gray-900 */
   /* Additional styles for transition and visibility */
 }
 
@@ -41,6 +41,17 @@
 }
 .hidden {
   display: none;
+}
+
+.link {
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.link:hover {
+  color: var(--primary-color);
+  transition: all 0.2s ease-in-out 0s;
 }
 
 /* Header.module.css에 추가 */

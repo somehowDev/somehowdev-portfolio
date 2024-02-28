@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./styles.module.css";
+import StrokeText from "../StrokeText/StrokeText";
 
 export default function Header() {
   // 메뉴 상태를 관리하기 위한 상태 변수와 설정 함수
@@ -28,7 +29,15 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <div className="text-lg font-bold">My Portfolio</div>
+        <div
+          style={{
+            color: "var(--primary-color)",
+            fontSize: "1.5rem",
+          }}
+          className="text-lg font-bold"
+        >
+          {`어쩌다 개발자`}
+        </div>
         <div>
           <button
             className={styles.menuButton}
@@ -54,25 +63,16 @@ export default function Header() {
               styles.menu
             }`}
           >
-            <Link href="/" className="hover:text-gray-300 py-2 text-center">
+            <Link href="/" className={styles.link}>
               Home
             </Link>
-            <Link
-              href="/about"
-              className="hover:text-gray-300 py-2 text-center"
-            >
+            <Link href="/about" className={styles.link}>
               About
             </Link>
-            <Link
-              href="/projects"
-              className="hover:text-gray-300 py-2 text-center"
-            >
+            <Link href="/projects" className={styles.link}>
               Projects
             </Link>
-            <Link
-              href="/contact"
-              className="hover:text-gray-300 py-2 text-center"
-            >
+            <Link href="/contact" className={styles.link}>
               Contact
             </Link>
           </nav>

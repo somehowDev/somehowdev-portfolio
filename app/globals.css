@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* 색상 변수 */
+  --primary-color: #ffc000;
+  --secondary-color: #333333;
+
+  /* 글꼴 크기 변수 */
+  --font-size-large: 18px;
+  --font-size-medium: 16px;
+  --font-size-small: 14px;
+}

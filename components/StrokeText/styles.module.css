@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "KOHIBaeum";
+  font-weight: normal;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
+.svg {
+  font-family: "KOHIBaeum";
+  font-size: 240px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-transform: uppercase;
+  animation: stroke 5s 1 alternate;
+  fill: var(--primary-color);
+}
+
+@keyframes stroke {
+  0% {
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    fill: rgba(72, 138, 204, 0);
+    stroke: var(--primary-color);
+    stroke-width: 2;
+  }
+  70%,
+  80% {
+    fill: rgba(72, 138, 204, 0);
+    stroke: var(--primary-color);
+  }
+  100% {
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    fill: rgba(72, 138, 204, 0);
+    stroke: var(--primary-color);
+    stroke-width: 2;
+  }
+}
