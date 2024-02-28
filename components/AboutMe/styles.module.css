@@ -1,0 +1,29 @@
+.container {
+  max-width: 72rem; /* Tailwind max-w-6xl */
+  height: 2.5rem; /* Tailwind h-10 */
+  margin: 0 auto;
+  padding: 1rem;
+  color: var(--default-font-Color);
+  padding-top: 40px;
+}
+
+.aboutMeTitle {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.aboutMeContent {
+  margin-top: 40px;
+  color: var(--secondary-color);
+}
+/* Header.module.css에 추가 */
+@media (max-width: 768px) {
+  .aboutMeTitle {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .svgWrap {
+    width: 180px !important;
+    margin-right: 10px;
+  }
+}

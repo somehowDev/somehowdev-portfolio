@@ -1,9 +1,10 @@
 .header {
-  background-color: #090917; /* Tailwind bg-gray-900 */
+  background-color: #000000; /* Tailwind bg-gray-900 */
   color: #f2f3f4;
   padding: 1rem; /* Tailwind p-4 */
-  position: relative;
+  position: sticky;
   z-index: 1000;
+  top: 0px;
 }
 
 .container {

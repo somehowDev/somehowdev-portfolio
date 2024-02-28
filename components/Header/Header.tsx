@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./styles.module.css";
-import StrokeText from "../StrokeText/StrokeText";
 
 export default function Header() {
   // 메뉴 상태를 관리하기 위한 상태 변수와 설정 함수

@@ -4,11 +4,28 @@
 
 :root {
   /* 색상 변수 */
+  --default-font-Color: #f2f3f4;
   --primary-color: #ffc000;
-  --secondary-color: #333333;
+  --secondary-color: #697273;
 
   /* 글꼴 크기 변수 */
   --font-size-large: 18px;
   --font-size-medium: 16px;
   --font-size-small: 14px;
+}
+
+@font-face {
+  font-family: "KOHIBaeum";
+  font-weight: normal;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.ttf")
+      format("truetype");
+  font-display: swap;
 }
