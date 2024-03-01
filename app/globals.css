@@ -4,7 +4,7 @@
 
 :root {
   /* 색상 변수 */
-  --default-font-Color: #f2f3f4;
+  --default-font-Color: #e4e4e4;
   --primary-color: #ffc000;
   --secondary-color: #697273;
 
@@ -12,6 +12,10 @@
   --font-size-large: 18px;
   --font-size-medium: 16px;
   --font-size-small: 14px;
+}
+
+body {
+  background-color: black;
 }
 
 @font-face {

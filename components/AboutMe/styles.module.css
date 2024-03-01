@@ -4,16 +4,20 @@
   padding: 1rem;
   color: var(--default-font-Color);
   background-color: black;
-  padding-top: 40px;
+  padding-top: 20px;
   height: 100%;
   min-height: 700px;
 }
 
 .aboutMeTitle {
+  color: var(--default-font-Color);
   font-size: 36px;
   font-weight: 600;
 }
 
+.introduceText {
+  padding-top: 60px;
+}
 .aboutMeContent {
   margin-top: 40px;
   color: var(--secondary-color);
@@ -26,17 +30,42 @@
   width: 800px;
 }
 
+.aboutMeBackgroundSvg {
+  position: absolute;
+  width: 600px;
+  top: 40;
+  left: 150;
+}
+
 /* Header.module.css에 추가 */
 @media (max-width: 768px) {
+  .container {
+    padding-top: 10px;
+  }
   .aboutMeTitle {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
   }
   .svgWrap {
     width: 180px !important;
     margin-right: 10px;
   }
+  .aboutMeContent {
+    margin-top: 0px;
+  }
+  .aboutMeContentText {
+    font-size: 16px;
+    padding: 10px;
+  }
+
   .aboutMeContentSvg {
     display: none;
+  }
+
+  .aboutMeBackgroundSvg {
+    display: none;
+  }
+  .introduceText {
+    padding-top: 20px;
   }
 }

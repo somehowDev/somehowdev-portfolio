@@ -4,12 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main
-      style={{
-        backgroundColor: "black",
-      }}
-      className="main relative overflow-hidden"
-    >
+    <main className="h-full w-full">
       <div id="aboutMe">
         <AboutMe />
       </div>
