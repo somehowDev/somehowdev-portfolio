@@ -1,10 +1,12 @@
 .container {
   max-width: 72rem; /* Tailwind max-w-6xl */
-  height: 2.5rem; /* Tailwind h-10 */
   margin: 0 auto;
   padding: 1rem;
   color: var(--default-font-Color);
+  background-color: black;
   padding-top: 40px;
+  height: 100%;
+  min-height: 700px;
 }
 
 .aboutMeTitle {
@@ -15,7 +17,15 @@
 .aboutMeContent {
   margin-top: 40px;
   color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.aboutMeContentSvg {
+  width: 800px;
+}
+
 /* Header.module.css에 추가 */
 @media (max-width: 768px) {
   .aboutMeTitle {
@@ -25,5 +35,8 @@
   .svgWrap {
     width: 180px !important;
     margin-right: 10px;
+  }
+  .aboutMeContentSvg {
+    display: none;
   }
 }
