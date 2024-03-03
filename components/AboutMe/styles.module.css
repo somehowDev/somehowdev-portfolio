@@ -1,5 +1,5 @@
 .container {
-  max-width: 72rem; /* Tailwind max-w-6xl */
+  max-width: 85rem; /* Tailwind max-w-6xl */
   margin: 0 auto;
   padding: 1rem;
   color: var(--default-font-Color);
@@ -14,7 +14,9 @@
   font-size: 36px;
   font-weight: 600;
 }
-
+.aboutMeContentText {
+  max-width: 600px;
+}
 .introduceText {
   padding-top: 60px;
 }
@@ -27,7 +29,7 @@
 }
 
 .aboutMeContentSvg {
-  width: 800px;
+  width: 550px;
 }
 
 .aboutMeBackgroundSvg {

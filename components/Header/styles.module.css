@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 72rem; /* Tailwind max-w-6xl */
+  max-width: 85rem; /* Tailwind max-w-6xl */
   height: 2.5rem; /* Tailwind h-10 */
   margin: 0 auto;
 }

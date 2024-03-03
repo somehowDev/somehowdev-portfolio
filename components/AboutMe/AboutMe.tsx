@@ -469,7 +469,7 @@ export default function AboutMe() {
                 멋진 사람으로 함께 성장시킬 수 있습니다.
               </div>
             </div>
-          </motion.div>{" "}
+          </motion.div>
           <div className={styles.aboutMeContentSvg}>
             <motion.div variants={slideInFromRight(0.5)}>
               <Image
