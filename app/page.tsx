@@ -5,9 +5,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="h-full w-full">
-      <div id="aboutMe">
+      <section id="aboutMe">
         <AboutMe />
-      </div>
+      </section>
+      <section id="skills">
+        <AboutMe />
+      </section>
     </main>
   );
 }
