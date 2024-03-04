@@ -18,6 +18,18 @@ body {
   background-color: black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+  height: 100vh; /* 뷰포트 높이의 100% */
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+
 @font-face {
   font-family: "KOHIBaeum";
   font-weight: normal;
@@ -32,4 +44,10 @@ body {
     url("https://cdn.jsdelivr.net/gh/webfontworld/kohi/KOHIBaeum.ttf")
       format("truetype");
   font-display: swap;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 10px;
+  }
 }

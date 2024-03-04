@@ -1,12 +1,5 @@
 .container {
-  max-width: 85rem; /* Tailwind max-w-6xl */
-  margin: 0 auto;
-  padding: 1rem;
-  color: var(--default-font-Color);
-  background-color: black;
-  padding-top: 20px;
-  height: 100%;
-  min-height: 700px;
+  width: 85rem;
 }
 
 .aboutMeTitle {
