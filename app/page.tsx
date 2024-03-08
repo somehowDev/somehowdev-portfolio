@@ -12,6 +12,12 @@ export default function Home() {
       <section id="skills">
         <Skills />
       </section>
+      <section id="projects" style={{ marginTop: "400px" }}>
+        <div style={{ color: "white" }}>Projects</div>
+      </section>
+      <section id="guide-line">
+        <div style={{ color: "white" }}>Guide line</div>
+      </section>
     </main>
   );
 }

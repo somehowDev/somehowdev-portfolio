@@ -68,11 +68,11 @@ export default function Header() {
             <Link href="#skills" className={styles.link}>
               Skills
             </Link>
-            <Link href="/projects" className={styles.link}>
-              Projects
+            <Link href="#projects" className={styles.link}>
+              <div>Projects</div>
             </Link>
-            <Link href="/contact" className={styles.link}>
-              Contact
+            <Link href="#guide-line" className={styles.link}>
+              <div>Guide line</div>
             </Link>
           </nav>
         </div>

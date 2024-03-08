@@ -51,7 +51,7 @@ export default function Skills() {
   return (
     <motion.div initial="hidden" animate="visible" className={styles.container}>
       <div className={styles.skillsWrap}>
-        <motion.div variants={slideInFromTop} className={styles.skillsWrap}>
+        <motion.div variants={slideInFromTop} className={styles.skillsTextWrap}>
           <div className={styles.skillsTitle}>Skills</div>
           <div className={styles.skillsDesc}>
             아래의 Skills는 제가 주로 사용하는 기술 나열 입니다.
@@ -60,7 +60,12 @@ export default function Skills() {
 
         <div className={styles.skillListWrap}>
           <motion.div variants={slideInFromLeft(0.5)}>
-            <div className={styles.skillWrap}>
+            <div
+              className={styles.skillWrap}
+              style={{
+                minHeight: "450px",
+              }}
+            >
               <div className={styles.skilTitle}>Frontend</div>
               <div className={styles.skillList}>
                 <div className={styles.skill}>
@@ -193,7 +198,12 @@ export default function Skills() {
             </div>
           </motion.div>
           <motion.div variants={slideInFromRight(0.5)}>
-            <div className={styles.skillWrap}>
+            <div
+              className={styles.skillWrap}
+              style={{
+                minHeight: "450px",
+              }}
+            >
               <div className={styles.skilTitle}>Backend</div>
               <div className={styles.skillList}>
                 <div className={styles.skill}>
@@ -275,7 +285,12 @@ export default function Skills() {
 
         <div className={styles.skillListWrap}>
           <motion.div variants={slideInFromLeft(0.5)}>
-            <div className={styles.skillWrap}>
+            <div
+              className={styles.skillWrap}
+              style={{
+                minHeight: "370px",
+              }}
+            >
               <div className={styles.skilTitle}>With</div>
               <div className={styles.skillList}>
                 <div className={styles.skill}>
@@ -377,7 +392,12 @@ export default function Skills() {
             </div>
           </motion.div>
           <motion.div variants={slideInFromRight(0.5)}>
-            <div className={styles.skillWrap}>
+            <div
+              className={styles.skillWrap}
+              style={{
+                minHeight: "370px",
+              }}
+            >
               <div className={styles.skilTitle}>Next</div>
               <div className={styles.skillList}>
                 <div className={styles.skill}>
