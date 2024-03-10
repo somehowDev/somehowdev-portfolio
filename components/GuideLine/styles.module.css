@@ -1,0 +1,48 @@
+.container {
+  width: 85rem;
+  color: white;
+}
+
+.contentWrap {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.guideTitle {
+  color: var(--primary-color);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.blueMarbleWrap {
+  flex-wrap: wrap; /* 필요에 따라 항목들을 다음 줄로 넘김 */
+  width: 1280px; /* 계산된 총 너비 */
+  margin: auto; /* 페이지 중앙에 컨테이너를 배치 */
+}
+
+.blueMarbleLeft {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.blueMarbleRight {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.blueMarble {
+  text-align: center;
+  border: 1px solid white;
+  width: 200px;
+  height: 110px;
+}
+
+.blueMarbleImageWrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}

@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe/AboutMe";
+import GuideLine from "@/components/GuideLine/GuideLine";
 import Skills from "@/components/Skills/Skills";
 import StrokeText from "@/components/StrokeText/StrokeText";
 import Image from "next/image";
@@ -16,7 +17,7 @@ export default function Home() {
         <div style={{ color: "white" }}>Projects</div>
       </section>
       <section id="guide-line">
-        <div style={{ color: "white" }}>Guide line</div>
+        <GuideLine />
       </section>
     </main>
   );
