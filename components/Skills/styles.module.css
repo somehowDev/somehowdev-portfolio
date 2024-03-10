@@ -85,4 +85,8 @@
     padding: 10px 14px;
     border: 1px solid rgba(242, 243, 244, 0.5);
   }
+
+  .skillsTitle {
+    font-size: 32px;
+  }
 }

@@ -15,9 +15,9 @@
 }
 
 .blueMarbleWrap {
-  flex-wrap: wrap; /* 필요에 따라 항목들을 다음 줄로 넘김 */
   width: 1280px; /* 계산된 총 너비 */
   margin: auto; /* 페이지 중앙에 컨테이너를 배치 */
+  padding-bottom: 60px;
 }
 
 .blueMarbleLeft {
@@ -45,4 +45,13 @@
   display: flex;
   justify-content: center;
   padding-top: 10px;
+}
+
+.blueMarbleMobileWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
