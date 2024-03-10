@@ -69,10 +69,16 @@ export default function Header() {
               Skills
             </Link>
             <Link href="#projects" className={styles.link}>
-              <div>Projects</div>
+              Projects{" "}
             </Link>
             <Link href="#guide-line" className={styles.link}>
-              <div>Guide line</div>
+              <div
+                style={{
+                  color: "var(--primary-color)",
+                }}
+              >
+                어쩌다 부루마블
+              </div>
             </Link>
           </nav>
         </div>

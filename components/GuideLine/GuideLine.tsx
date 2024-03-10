@@ -24,8 +24,18 @@ export default function GuideLine() {
     <div className={styles.container}>
       <div className={styles.contentWrap}>
         <div className={styles.guideTitle}>어쩌다 부루마블</div>
-        <div>어쩌다 FE 부루마블 시리즈!! 천천히 한 단계씩!! 진행해 보세요.</div>
-        <div>여러분도 어쩌다 개발자가 될 수 있습니다.</div>
+        <div>
+          어쩌다 FE 부루마블 시리즈!! 천천히 한 단계, 한 단계씩 진행해 보세요.
+          🚀
+        </div>
+        <div>
+          어쩌다 FE 부루마블은 개발자 최소한의 기초 과정을 베이스로 프론트엔드
+          개발자로 취업하기 위한 첫번째 과정을 다루는 내용입니다.
+        </div>
+        <div>
+          여러분도 어쩌다 개발자가 될 수 있습니다. 지금 당장 따라 해보세요
+          🔥🔥🔥
+        </div>
       </div>
 
       <div className={styles.blueMarbleWrap}>
@@ -53,10 +63,10 @@ export default function GuideLine() {
 
         <div className={styles.blueMarbleLeft}>
           <div className={styles.blueMarble}>정리</div>
-          <div className={styles.blueMarble}>222</div>
-          <div className={styles.blueMarble}>222</div>
-          <div className={styles.blueMarble}>React Basic(2)</div>
-          <div className={styles.blueMarble}>React Basic(1)</div>
+          <div className={styles.blueMarble}>React Basic Course(4)</div>
+          <div className={styles.blueMarble}>React Basic Course(3)</div>
+          <div className={styles.blueMarble}>React Basic Course(2)</div>
+          <div className={styles.blueMarble}>React Basic Course(1)</div>
           <div className={styles.blueMarble}>React 란??</div>
         </div>
 
