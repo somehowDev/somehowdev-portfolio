@@ -1,0 +1,23 @@
+.container {
+  width: 85rem;
+  color: white;
+}
+.projectsWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.projectsTextWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectsTitle {
+  color: var(--primary-color);
+  font-size: 48px;
+  font-weight: 600;
+}

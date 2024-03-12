@@ -1,5 +1,6 @@
 import AboutMe from "@/components/AboutMe/AboutMe";
 import GuideLine from "@/components/GuideLine/GuideLine";
+import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
 import StrokeText from "@/components/StrokeText/StrokeText";
 import Image from "next/image";
@@ -14,7 +15,7 @@ export default function Home() {
         <Skills />
       </section>
       <section id="projects" style={{ marginTop: "400px" }}>
-        <div style={{ color: "white" }}>Projects</div>
+        <Projects />
       </section>
       <section id="guide-line">
         <GuideLine />
