@@ -92,6 +92,51 @@ export default function GuideLine() {
           </div>
         </div>
       </div>
+
+      <div className={styles.blueMarbleMobileWrap}>
+        <div className={styles.blueMarble}>
+          <div className={styles.blueMarbleImageWrap}>
+            <Image
+              src={"/blueMarble/start.png"}
+              alt="start"
+              width={80}
+              height={80}
+            />
+          </div>
+        </div>
+        <div className={styles.blueMarble}>FE 역할, 개념</div>
+        <div className={styles.blueMarble}>HTML</div>
+        <div className={styles.blueMarble}>CSS</div>
+        <div className={styles.blueMarble}>JAVASCRIPT</div>
+        <div className={styles.blueMarble}>정리</div>
+
+        <div className={styles.blueMarble}>Toy-Project</div>
+
+        <div className={styles.blueMarble}>정리</div>
+        <div className={styles.blueMarble}>React Advanced Course(2)</div>
+        <div className={styles.blueMarble}>React Advanced Course(1)</div>
+        <div className={styles.blueMarble}>React Basic Course(2)</div>
+        <div className={styles.blueMarble}>React Basic Course(1)</div>
+        <div className={styles.blueMarble}>React 란??</div>
+
+        <div className={styles.blueMarble}>Toy-Project</div>
+
+        <div className={styles.blueMarble}>취업 여행</div>
+        <div className={styles.blueMarble}>개인 브랜딩 시작</div>
+        <div className={styles.blueMarble}>인성 면접(Basic)</div>
+        <div className={styles.blueMarble}>기술 면접(Basic)</div>
+        <div className={styles.blueMarble}>마치며..</div>
+        <div className={styles.blueMarble}>
+          <div className={styles.blueMarbleImageWrap}>
+            <Image
+              src={"/blueMarble/finish.png"}
+              alt="finish"
+              width={80}
+              height={80}
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

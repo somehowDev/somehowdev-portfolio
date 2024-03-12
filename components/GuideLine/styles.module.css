@@ -54,4 +54,28 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 310px;
+  }
+  .blueMarbleWrap {
+    display: none;
+  }
+  .blueMarble {
+    width: 240px;
+    height: 100px;
+  }
+  .blueMarbleImageWrap {
+    padding-top: 5px;
+  }
+  .blueMarbleMobileWrap {
+    font-size: 13px;
+    display: flex;
+  }
+  .guideTitle {
+    font-size: 32px;
+  }
 }
