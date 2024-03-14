@@ -60,6 +60,36 @@ export default function Projects() {
               <div className={styles.projectList}></div>
             </div>
           </div>
+
+          <div className={styles.projectListWrap}>
+            <div
+              className={styles.projectWrap}
+              style={{
+                minHeight: "450px",
+              }}
+            >
+              <div className={styles.projectTitle}>Project A</div>
+              <div className={styles.projectList}></div>
+            </div>
+            <div
+              className={styles.projectWrap}
+              style={{
+                minHeight: "450px",
+              }}
+            >
+              <div className={styles.projectTitle}>Project B</div>
+              <div className={styles.projectList}></div>
+            </div>
+            <div
+              className={styles.projectWrap}
+              style={{
+                minHeight: "450px",
+              }}
+            >
+              <div className={styles.projectTitle}>Project B</div>
+              <div className={styles.projectList}></div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </div>

@@ -59,7 +59,7 @@
 
 @media (max-width: 768px) {
   .container {
-    padding-top: 310px;
+    margin-top: 80px;
   }
   .blueMarbleWrap {
     display: none;

@@ -99,3 +99,46 @@
   justify-content: center;
   gap: 8px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 80px;
+  }
+
+  .projectListWrap {
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+  }
+
+  .projectWrap {
+    border: 1px solid rgba(255, 221, 25, 0.3);
+  }
+
+  .projectsTitle {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .projectYears li {
+    margin: 3px;
+    font-size: 14px;
+    padding: 5px 10px;
+    width: 60px;
+  }
+
+  .projectYears .active {
+    background-color: var(--primary-color);
+    color: black;
+    margin: 3px;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid black;
+    width: 60px;
+  }
+
+  .projectYears {
+    margin-top: 20px;
+  }
+}

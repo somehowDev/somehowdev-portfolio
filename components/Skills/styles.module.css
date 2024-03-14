@@ -71,6 +71,10 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    margin-top: 80px;
+  }
+
   .skillListWrap {
     flex-direction: column;
     padding-top: 40px;

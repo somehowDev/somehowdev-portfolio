@@ -14,7 +14,7 @@ export default function Home() {
       <section id="skills">
         <Skills />
       </section>
-      <section id="projects" style={{ marginTop: "400px" }}>
+      <section id="projects">
         <Projects />
       </section>
       <section id="guide-line">
