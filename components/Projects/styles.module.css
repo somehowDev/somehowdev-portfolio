@@ -26,10 +26,12 @@
 
 .projectYears {
   margin-top: 10px;
+  z-index: 1001;
 }
 
 .projectYears ul li {
   display: inline-block;
+  cursor: pointer;
 }
 
 .projectYears li {
