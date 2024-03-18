@@ -3,12 +3,14 @@
   color: white;
 }
 .projectsWrap {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 40px;
 }
+
 .projectsTextWrap {
   width: 100%;
   display: flex;
@@ -65,8 +67,7 @@
 }
 
 .projectWrap {
-  width: 100%;
-  max-width: 500px;
+  width: calc(46% - 10px);
   background-color: rgba(17, 25, 40, 0.83);
   border: 1px solid rgba(255, 221, 25, 0.125);
   border-radius: 16px;
@@ -80,7 +81,16 @@
   text-align: center;
   margin-bottom: 40px;
 }
-
+.projectVisible {
+  font-size: 12px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 3px;
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
 .projectList {
   display: flex;
   justify-content: center;
@@ -114,6 +124,7 @@
   }
 
   .projectWrap {
+    width: 100%;
     border: 1px solid rgba(255, 221, 25, 0.3);
   }
 
