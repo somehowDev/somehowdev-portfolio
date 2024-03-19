@@ -9,7 +9,7 @@ const projectsData = [
   {
     year: "2024",
     title: "LLM 기반 AI 교육 플랫폼",
-    skills: [],
+    skills: ["nextjs", "react", "typescript", "mui", "threejs", "websocket"],
     description: "A description for Project A.",
     visible: false,
     link: "",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     year: "2024",
     title: "어쩌다 개발자 포트폴리오",
-    skills: [],
+    skills: ["nextjs", "react", "typescript", "threejs"],
     description: "A description for Project A.",
     visible: true,
     link: "",
@@ -25,7 +25,19 @@ const projectsData = [
   {
     year: "2023",
     title: "DX 플랫폼 - 재고 관리 솔루션",
-    skills: [],
+    skills: [
+      "vite",
+      "react",
+      "typescript",
+      "threejs",
+      "react-query",
+      "recoil",
+      "react-dnd",
+      "reactstrap",
+      "antd",
+      "apexcharts",
+      "i18next",
+    ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
     visible: false,
@@ -34,7 +46,19 @@ const projectsData = [
   {
     year: "2023",
     title: "DX 플랫폼 - 데이터 센터 관리",
-    skills: [],
+    skills: [
+      "vite",
+      "react",
+      "typescript",
+      "threejs",
+      "react-query",
+      "recoil",
+      "react-dnd",
+      "reactstrap",
+      "antd",
+      "apexcharts",
+      "i18next",
+    ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
     visible: false,
@@ -43,7 +67,19 @@ const projectsData = [
   {
     year: "2023",
     title: "DX 플랫폼 - 자산 관리 솔루션",
-    skills: [],
+    skills: [
+      "vite",
+      "react",
+      "typescript",
+      "threejs",
+      "react-query",
+      "recoil",
+      "react-dnd",
+      "reactstrap",
+      "antd",
+      "apexcharts",
+      "i18next",
+    ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
     visible: false,
@@ -52,7 +88,21 @@ const projectsData = [
   {
     year: "2023",
     title: "비밀리 Web 개발",
-    skills: [],
+    skills: [
+      "vite",
+      "sendbird",
+      "react",
+      "typescript",
+      "antd",
+      "react-query",
+      "recoil",
+      "videojs",
+      "patch-package",
+      "i18next",
+      "img-crop",
+      "gsap",
+      "firebase",
+    ],
     description:
       "비밀리(다날) 패밀리타운(Family Town) - 모바일 메신저 플랫폼 서비스",
     visible: true,
@@ -61,7 +111,17 @@ const projectsData = [
   {
     year: "2022",
     title: "공장 DX 플랫폼",
-    skills: [],
+    skills: [
+      "vite",
+      "react",
+      "typescript",
+      "react-query",
+      "recoil",
+      "reactstrap",
+      "antd",
+      "apexcharts",
+      "i18next",
+    ],
     description:
       "공압계와 전력을 매핑시켜 데이터를 분석하여 공장 수율 및 자동화 프로세스를 통한 스마트 팩토리 프로젝트",
     visible: true,
@@ -70,7 +130,17 @@ const projectsData = [
   {
     year: "2022",
     title: "게임 회사 서버실 출입 관리 솔루션",
-    skills: [],
+    skills: [
+      "vite",
+      "react",
+      "typescript",
+      "react-query",
+      "recoil",
+      "reactstrap",
+      "antd",
+      "apexcharts",
+      "i18next",
+    ],
     description: "유명 게임회사의 서버실 출입에 관한 DX 솔루션",
     visible: false,
     link: "",
@@ -123,6 +193,7 @@ export default function Projects() {
               display: "flex",
               flexWrap: "wrap",
               justifyContent: "center",
+              width: "100%",
             }}
           >
             {filteredProjects.map((project, index) => (
@@ -139,6 +210,11 @@ export default function Projects() {
                 </div>
                 <div className={styles.projectDescription}>
                   {project.description}
+                </div>
+                <div className={styles.projectSkills}>
+                  {project?.skills?.map((skill: string, index: number) => {
+                    return <div className={styles.skill}>{skill}</div>;
+                  })}
                 </div>
               </div>
             ))}

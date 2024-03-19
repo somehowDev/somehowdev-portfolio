@@ -112,6 +112,22 @@
   gap: 8px;
 }
 
+.projectSkills {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(242, 243, 244, 0.5);
+  flex-wrap: wrap; /* 여기에 추가 */
+}
+.skill {
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  color: var(--primary-color);
+}
+
 @media (max-width: 768px) {
   .container {
     margin-top: 80px;
