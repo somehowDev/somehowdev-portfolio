@@ -4,21 +4,6 @@ import React, { useState } from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
 
-const Step = ({ title, details }: any) => {
-  const [showDetails, setShowDetails] = useState(false);
-
-  const toggleDetails = () => {
-    setShowDetails(!showDetails);
-  };
-
-  return (
-    <div className={styles.step} onClick={toggleDetails}>
-      {title}
-      {showDetails && <div className={styles.details}>{details}</div>}
-    </div>
-  );
-};
-
 export default function GuideLine() {
   return (
     <div className={styles.container}>
@@ -29,8 +14,8 @@ export default function GuideLine() {
           🚀
         </div>
         <div className={styles.guideDesc}>
-          어쩌다 FE 부루마블은 개발자 최소한의 기초 과정을 베이스로 프론트엔드
-          개발자로 취업하기 위한 첫번째 과정을 다루는 내용입니다.
+          어쩌다 FE 부루마블은 최소한의 기초 과정을 베이스로 프론트엔드 개발자로
+          취업하기 위한 첫번째 과정을 다루는 내용입니다.
         </div>
         <div className={styles.guideDesc}>
           여러분도 어쩌다 개발자가 될 수 있습니다. 지금 당장 따라 해보세요

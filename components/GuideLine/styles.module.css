@@ -1,6 +1,7 @@
 .container {
   width: 85rem;
   color: white;
+  z-index: 1001;
 }
 
 .contentWrap {
@@ -39,6 +40,15 @@
   border: 1px solid white;
   width: 200px;
   height: 110px;
+  transition: all 0.3s ease; /* 부드러운 효과를 위한 추가 */
+}
+
+.blueMarble:hover {
+  border-color: var(--primary-color); /* 마우스 오버 시 테두리 색상 변경 */
+  color: var(--primary-color); /* 마우스 오버 시 글자 색상 변경 */
+  transform: scale(1.1); /* 마우스 오버 시 10% 확대 */
+  box-shadow: 0 0 15px var(--primary-color); /* 노란색 그림자 효과 */
+  cursor: pointer;
 }
 
 .blueMarbleImageWrap {
