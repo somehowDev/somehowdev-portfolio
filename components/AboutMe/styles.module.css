@@ -2,7 +2,10 @@
   width: 85rem;
   margin-bottom: 80px;
 }
-
+.name {
+  color: var(--primary-color);
+  font-weight: bold;
+}
 .aboutMeTitle {
   color: var(--default-font-Color);
   font-size: 36px;
