@@ -11,6 +11,7 @@ const projectsData = [
     year: "2024",
     title: "LLM 기반 AI 교육 플랫폼",
     mainImage: "/projects/llm2.png",
+    imgs: ["/projects/llm2.png", "/projects/llm.png", "/projects/llm3.png"],
     skills: [
       "nextjs",
       "next-auth",
@@ -29,6 +30,12 @@ const projectsData = [
     year: "2024",
     title: "어쩌다 개발자 포트폴리오",
     skills: ["nextjs", "react", "typescript", "threejs"],
+    imgs: [
+      "/projects/portfolio.png",
+      "/projects/portfolio2.png",
+      "/projects/portfolio3.png",
+      "/projects/portfolio4.png",
+    ],
     mainImage: "/projects/portfolio.png",
     description:
       "어쩌다 개발자 라는 퍼스널 브랜딩을 위한 포트폴리오 사이트 개발",
@@ -54,6 +61,7 @@ const projectsData = [
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
     mainImage: "",
+    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     visible: false,
     link: "",
   },
@@ -75,6 +83,7 @@ const projectsData = [
     ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
+    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     mainImage: "",
     visible: false,
     link: "",
@@ -98,6 +107,7 @@ const projectsData = [
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
     mainImage: "",
+    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     visible: false,
     link: "",
   },
@@ -122,6 +132,7 @@ const projectsData = [
     description:
       "비밀리(다날) 패밀리타운(Family Town) - 모바일 메신저 플랫폼 서비스",
     mainImage: "",
+    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     visible: true,
     link: "https://www.family-town.com/features",
   },
@@ -142,6 +153,7 @@ const projectsData = [
     description:
       "공압계와 전력을 매핑시켜 데이터를 분석하여 공장 수율 및 자동화 프로세스를 통한 스마트 팩토리 프로젝트",
     mainImage: "",
+    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     visible: true,
     link: "",
   },
@@ -161,6 +173,7 @@ const projectsData = [
     ],
     description: "유명 게임회사의 서버실 출입에 관한 DX 솔루션",
     mainImage: "",
+    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     visible: false,
     link: "",
   },
@@ -180,6 +193,7 @@ const projectsData = [
     ],
     description: "유명 IT 대기업에서 사용하는 업무 관리 시스템",
     mainImage: "",
+    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     visible: false,
     link: "",
   },
@@ -247,19 +261,12 @@ export default function Projects() {
                   ) : null}
                 </div>
                 <div className={styles.projectImage}>
-                  <Image.PreviewGroup
-                    items={[
-                      "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
-                      "https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp",
-                      "https://gw.alipayobjects.com/zos/antfincdn/x43I27A55%26/photo-1438109491414-7198515b166b.webp",
-                    ]}
-                  >
+                  <Image.PreviewGroup items={project?.imgs}>
                     <Image
-                      style={{
-                        zIndex: "9999 !important",
-                      }}
-                      width={200}
-                      src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp"
+                      width={500}
+                      height={280}
+                      className={styles.projectMainImage}
+                      src={project.mainImage}
                     />
                   </Image.PreviewGroup>
                 </div>

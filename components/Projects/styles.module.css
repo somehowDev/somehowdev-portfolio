@@ -1,6 +1,5 @@
 .container {
   width: 85rem;
-  z-index: 1000 !important;
   color: white;
 }
 .projectsWrap {
@@ -73,6 +72,7 @@
   border: 1px solid rgba(255, 221, 25, 0.125);
   border-radius: 16px;
   box-shadow: rgba(230, 223, 23, 0.2) 0px 4px 24px;
+  z-index: 1000 !important;
   padding: 18px 36px;
 }
 
@@ -82,6 +82,7 @@
   text-align: center;
   margin-bottom: 40px;
 }
+
 .projectVisible {
   font-size: 12px;
   color: var(--primary-color);
@@ -132,8 +133,7 @@
 .projectImage {
   padding: 10px;
   opacity: 0.9;
-  min-height: 500px;
-  z-index: 1001;
+  min-height: 400px;
 }
 
 @media (max-width: 768px) {
@@ -177,5 +177,11 @@
 
   .projectYears {
     margin-top: 20px;
+  }
+
+  .projectImage {
+    padding: 10px;
+    opacity: 0.9;
+    min-height: 300px;
   }
 }
