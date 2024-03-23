@@ -29,7 +29,7 @@ const projectsData = [
   {
     year: "2024",
     title: "어쩌다 개발자 포트폴리오",
-    skills: ["nextjs", "react", "typescript", "threejs"],
+    skills: ["nextjs", "react", "typescript", "threejs", "antd"],
     imgs: [
       "/projects/portfolio.png",
       "/projects/portfolio2.png",
@@ -38,9 +38,40 @@ const projectsData = [
     ],
     mainImage: "/projects/portfolio.png",
     description:
-      "어쩌다 개발자 라는 퍼스널 브랜딩을 위한 포트폴리오 사이트 개발",
+      "<어쩌다 개발자 /> 라는 퍼스널 브랜딩을 위한 포트폴리오 사이트 개발",
     visible: true,
     link: "",
+  },
+  {
+    year: "2023",
+    title: "비밀리 Web 개발",
+    skills: [
+      "vite",
+      "sendbird",
+      "react",
+      "typescript",
+      "antd",
+      "react-query",
+      "recoil",
+      "videojs",
+      "patch-package",
+      "i18next",
+      "img-crop",
+      "gsap",
+      "firebase",
+    ],
+    description:
+      "비밀리(다날) 패밀리타운(Family Town) - 모바일 메신저 플랫폼 서비스",
+    mainImage: "/projects/ft.png",
+    imgs: [
+      "/projects/ft.png",
+      "/projects/ft2.png",
+      "/projects/ft3.png",
+      "/projects/ft4.png",
+      "/projects/ft5.png",
+    ],
+    visible: true,
+    link: "https://www.family-town.com/features",
   },
   {
     year: "2023",
@@ -110,31 +141,6 @@ const projectsData = [
     imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
     visible: false,
     link: "",
-  },
-  {
-    year: "2023",
-    title: "비밀리 Web 개발",
-    skills: [
-      "vite",
-      "sendbird",
-      "react",
-      "typescript",
-      "antd",
-      "react-query",
-      "recoil",
-      "videojs",
-      "patch-package",
-      "i18next",
-      "img-crop",
-      "gsap",
-      "firebase",
-    ],
-    description:
-      "비밀리(다날) 패밀리타운(Family Town) - 모바일 메신저 플랫폼 서비스",
-    mainImage: "",
-    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
-    visible: true,
-    link: "https://www.family-town.com/features",
   },
   {
     year: "2022",
@@ -228,9 +234,9 @@ export default function Projects() {
                 (currentYear - 1).toString(),
                 (currentYear - 2).toString(),
                 (currentYear - 3).toString(),
-              ].map((year) => (
+              ].map((year, index) => (
                 <li
-                  key={year}
+                  key={"year_" + year + "_" + index}
                   className={activeYear === year ? styles.active : ""}
                   onClick={() => setActiveYear(year)}
                 >
@@ -263,7 +269,6 @@ export default function Projects() {
                 <div className={styles.projectImage}>
                   <Image.PreviewGroup items={project?.imgs}>
                     <Image
-                      width={500}
                       height={280}
                       className={styles.projectMainImage}
                       src={project.mainImage}
@@ -275,7 +280,11 @@ export default function Projects() {
                 </div>
                 <div className={styles.projectSkills}>
                   {project?.skills?.map((skill: string, index: number) => {
-                    return <div className={styles.skill}>{skill}</div>;
+                    return (
+                      <div key={skill + "_" + index} className={styles.skill}>
+                        {skill}
+                      </div>
+                    );
                   })}
                 </div>
               </div>
