@@ -1,5 +1,6 @@
 .container {
   width: 85rem;
+  z-index: 1000 !important;
   color: white;
 }
 .projectsWrap {
@@ -132,6 +133,7 @@
   padding: 10px;
   opacity: 0.9;
   min-height: 500px;
+  z-index: 1001;
 }
 
 @media (max-width: 768px) {

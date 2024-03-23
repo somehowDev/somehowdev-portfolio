@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 import { slideInFromTop } from "@/utils/motion";
-import Image from "next/image";
+import { Image, Button } from "antd";
 
 const projectsData = [
   {
@@ -206,7 +206,7 @@ export default function Projects() {
           <div>
             실제로 라이브 서비스 중인 프로젝트, 전시회 프로젝트, 토이 프로젝트
             등등 다양한 기술과 경험으로 만든 프로젝트입니다.
-          </div>
+          </div>{" "}
           <div className={styles.projectYears}>
             <ul>
               {[
@@ -247,12 +247,21 @@ export default function Projects() {
                   ) : null}
                 </div>
                 <div className={styles.projectImage}>
-                  <Image
-                    src={project.mainImage}
-                    width={600}
-                    height={400}
-                    alt={project.title}
-                  />
+                  <Image.PreviewGroup
+                    items={[
+                      "https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp",
+                      "https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp",
+                      "https://gw.alipayobjects.com/zos/antfincdn/x43I27A55%26/photo-1438109491414-7198515b166b.webp",
+                    ]}
+                  >
+                    <Image
+                      style={{
+                        zIndex: "9999 !important",
+                      }}
+                      width={200}
+                      src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp"
+                    />
+                  </Image.PreviewGroup>
                 </div>
                 <div className={styles.projectDescription}>
                   {project.description}
