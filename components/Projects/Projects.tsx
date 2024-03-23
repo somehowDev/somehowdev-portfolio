@@ -4,11 +4,13 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 import { slideInFromTop } from "@/utils/motion";
+import Image from "next/image";
 
 const projectsData = [
   {
     year: "2024",
     title: "LLM 기반 AI 교육 플랫폼",
+    mainImage: "/projects/llm2.png",
     skills: [
       "nextjs",
       "next-auth",
@@ -27,6 +29,7 @@ const projectsData = [
     year: "2024",
     title: "어쩌다 개발자 포트폴리오",
     skills: ["nextjs", "react", "typescript", "threejs"],
+    mainImage: "/projects/portfolio.png",
     description:
       "어쩌다 개발자 라는 퍼스널 브랜딩을 위한 포트폴리오 사이트 개발",
     visible: true,
@@ -50,6 +53,7 @@ const projectsData = [
     ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
+    mainImage: "",
     visible: false,
     link: "",
   },
@@ -71,6 +75,7 @@ const projectsData = [
     ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
+    mainImage: "",
     visible: false,
     link: "",
   },
@@ -92,6 +97,7 @@ const projectsData = [
     ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
+    mainImage: "",
     visible: false,
     link: "",
   },
@@ -115,6 +121,7 @@ const projectsData = [
     ],
     description:
       "비밀리(다날) 패밀리타운(Family Town) - 모바일 메신저 플랫폼 서비스",
+    mainImage: "",
     visible: true,
     link: "https://www.family-town.com/features",
   },
@@ -134,6 +141,7 @@ const projectsData = [
     ],
     description:
       "공압계와 전력을 매핑시켜 데이터를 분석하여 공장 수율 및 자동화 프로세스를 통한 스마트 팩토리 프로젝트",
+    mainImage: "",
     visible: true,
     link: "",
   },
@@ -152,6 +160,7 @@ const projectsData = [
       "i18next",
     ],
     description: "유명 게임회사의 서버실 출입에 관한 DX 솔루션",
+    mainImage: "",
     visible: false,
     link: "",
   },
@@ -170,6 +179,7 @@ const projectsData = [
       "lerna",
     ],
     description: "유명 IT 대기업에서 사용하는 업무 관리 시스템",
+    mainImage: "",
     visible: false,
     link: "",
   },
@@ -226,7 +236,7 @@ export default function Projects() {
           >
             {filteredProjects.map((project, index) => (
               <div
-                key={index}
+                key={project.title + "_" + index}
                 className={styles.projectWrap}
                 // flexBasis 또는 width를 사용하여 각 프로젝트의 기본 크기를 설정
               >
@@ -235,6 +245,14 @@ export default function Projects() {
                   {project.visible === false ? (
                     <span className={styles.projectVisible}>대외비</span>
                   ) : null}
+                </div>
+                <div className={styles.projectImage}>
+                  <Image
+                    src={project.mainImage}
+                    width={600}
+                    height={400}
+                    alt={project.title}
+                  />
                 </div>
                 <div className={styles.projectDescription}>
                   {project.description}

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/nextjs-registry": "^1.0.0",
     "@react-three/drei": "^9.99.5",
     "@react-three/fiber": "^8.15.16",
     "framer-motion": "^11.0.8",
