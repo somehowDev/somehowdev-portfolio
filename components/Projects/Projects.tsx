@@ -144,7 +144,7 @@ const projectsData = [
   },
   {
     year: "2022",
-    title: "공장 DX 플랫폼",
+    title: "스마트팩토리 DX 플랫폼",
     skills: [
       "vite",
       "react",
@@ -158,8 +158,16 @@ const projectsData = [
     ],
     description:
       "공압계와 전력을 매핑시켜 데이터를 분석하여 공장 수율 및 자동화 프로세스를 통한 스마트 팩토리 프로젝트",
-    mainImage: "",
-    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
+    mainImage: "/projects/smartFactory6.png",
+    imgs: [
+      "/projects/smartFactory6.png",
+      "/projects/smartFactory.png",
+      "/projects/smartFactory2.png",
+      "/projects/smartFactory3.png",
+      "/projects/smartFactory4.png",
+      "/projects/smartFactory5.png",
+      "/projects/smartFactory7.png",
+    ],
     visible: true,
     link: "",
   },
@@ -188,11 +196,11 @@ const projectsData = [
     title: "유명 IT 대기업 업무 시스템",
     skills: [
       "react",
+      "react native",
       "webpack",
       "typescript",
       "styled-components",
       "redux",
-      "react native",
       "antd",
       "craco",
       "lerna",
