@@ -35,7 +35,9 @@ export default function Header() {
           }}
           className="text-lg font-bold"
         >
-          {`어쩌다 개발자`}
+          <Link href="/" className={styles.link}>
+            {`어쩌다 개발자`}
+          </Link>
         </div>
         <div>
           <button
