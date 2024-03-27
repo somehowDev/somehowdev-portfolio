@@ -91,8 +91,12 @@ const projectsData = [
     ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
-    mainImage: "",
-    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
+    mainImage: "/projects/stockMng.png",
+    imgs: [
+      "/projects/stockMng.png",
+      "/projects/stockMng2.png",
+      "/projects/stockMng3.png",
+    ],
     visible: false,
     link: "",
   },
