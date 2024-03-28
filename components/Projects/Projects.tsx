@@ -61,7 +61,7 @@ const projectsData = [
       "firebase",
     ],
     description:
-      "비밀리(다날) 패밀리타운(Family Town) - 모바일 메신저 플랫폼 서비스",
+      "비밀리(다날) 패밀리타운(Family Town) - 모바일, 웹 메신저 플랫폼 서비스",
     mainImage: "/projects/ft.png",
     imgs: [
       "/projects/ft.png",
@@ -118,8 +118,8 @@ const projectsData = [
     ],
     description:
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
-    imgs: ["/projects/llm2.png", "/projects/llm1.png", "/projects/llm3.png"],
-    mainImage: "",
+    imgs: ["/projects/dataCenter.png", "/projects/dataCenter2.png"],
+    mainImage: "/projects/dataCenter.png",
     visible: false,
     link: "",
   },
