@@ -205,6 +205,30 @@ const projectsData = [
   },
   {
     year: "2021",
+    title: "ThreeJs 토이 프로젝트",
+    skills: [
+      "react",
+      "react-three/fiber",
+      "react-three/drei",
+      "threejs",
+      "typescript",
+      "styled-components",
+      "redux",
+      "antd",
+    ],
+    description: "Threejs 학습을 하기 위한 토이 프로젝트(서버실 디지털 트윈)",
+    mainImage: "/projects/server_dt.png",
+    imgs: [
+      "/projects/server_dt.png",
+      "/projects/server_dt2.png",
+      "/projects/server_dt3.png",
+      "/projects/server_dt4.png",
+    ],
+    visible: true,
+    link: "",
+  },
+  {
+    year: "2021",
     title: "유명 IT 대기업 업무 시스템",
     skills: [
       "react",
