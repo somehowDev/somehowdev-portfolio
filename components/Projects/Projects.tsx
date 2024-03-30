@@ -205,7 +205,7 @@ const projectsData = [
   },
   {
     year: "2021",
-    title: "ThreeJs 토이 프로젝트",
+    title: "서버실 디지털 트윈(Threejs)",
     skills: [
       "react",
       "react-three/fiber",
@@ -217,8 +217,9 @@ const projectsData = [
       "antd",
     ],
     description: "Threejs 학습을 하기 위한 토이 프로젝트(서버실 디지털 트윈)",
-    mainImage: "/projects/server_dt.png",
+    mainImage: "/projects/server_dt5.png",
     imgs: [
+      "/projects/server_dt5.png",
       "/projects/server_dt.png",
       "/projects/server_dt2.png",
       "/projects/server_dt3.png",
