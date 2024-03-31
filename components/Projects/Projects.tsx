@@ -21,8 +21,10 @@ const projectsData = [
       "threejs",
       "websocket",
     ],
-    description:
+    description: [
       "학생 대상의 인공지능(AI) 교육 과정으로, AI의 기본 개념 이해, 프롬프트 작성 방법 학습, 그리고 창의적 이야기와 프로젝트 생성의 기회를 제공하며, 경험 할 수 있는 플랫폼 개발",
+      "llm, prompt, chatGPT",
+    ],
     visible: false,
     link: "",
   },
@@ -37,8 +39,10 @@ const projectsData = [
       "/projects/portfolio4.png",
     ],
     mainImage: "/projects/portfolio.png",
-    description:
+    description: [
       "<어쩌다 개발자 /> 라는 퍼스널 브랜딩을 위한 포트폴리오 사이트 개발",
+      "핵개인화의 시대에 맞는 개인적 특성과 가치관에 맞는 인간관계를 다양하게 만드기 위한 과정 및 프로젝트",
+    ],
     visible: true,
     link: "",
   },
@@ -60,8 +64,10 @@ const projectsData = [
       "gsap",
       "firebase",
     ],
-    description:
+    description: [
       "비밀리(다날) 패밀리타운(Family Town) - 모바일, 웹 메신저 플랫폼 서비스",
+      "서비스 런칭 (https://www.family-town.com/features)",
+    ],
     mainImage: "/projects/ft.png",
     imgs: [
       "/projects/ft.png",
@@ -89,8 +95,9 @@ const projectsData = [
       "apexcharts",
       "i18next",
     ],
-    description:
+    description: [
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
+    ],
     mainImage: "/projects/stockMng.png",
     imgs: [
       "/projects/stockMng.png",
@@ -116,8 +123,9 @@ const projectsData = [
       "apexcharts",
       "i18next",
     ],
-    description:
+    description: [
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
+    ],
     imgs: ["/projects/dataCenter.png", "/projects/dataCenter2.png"],
     mainImage: "/projects/dataCenter.png",
     visible: false,
@@ -139,8 +147,9 @@ const projectsData = [
       "apexcharts",
       "i18next",
     ],
-    description:
+    description: [
       "운영중인 스타트업 일본 Edge Tech+ 전시회 참석을 위한 DX 플랫폼 개발",
+    ],
     mainImage: "/projects/assetMng2.png",
     imgs: [
       "/projects/assetMng2.png",
@@ -164,8 +173,9 @@ const projectsData = [
       "apexcharts",
       "i18next",
     ],
-    description:
+    description: [
       "공압계와 전력을 매핑시켜 데이터를 분석하여 공장 수율 및 자동화 프로세스를 통한 스마트 팩토리 프로젝트",
+    ],
     mainImage: "/projects/smartFactory6.png",
     imgs: [
       "/projects/smartFactory6.png",
@@ -193,7 +203,10 @@ const projectsData = [
       "apexcharts",
       "i18next",
     ],
-    description: "유명 게임회사의 서버실 출입에 관한 DX 솔루션",
+    description: [
+      "유명 게임회사의 서버실 출입에 관한 DX 솔루션",
+      "스타트업 창업 후 첫 DX 프로젝트",
+    ],
     mainImage: "/projects/server.png",
     imgs: [
       "/projects/server.png",
@@ -204,7 +217,7 @@ const projectsData = [
     link: "",
   },
   {
-    year: "2021",
+    year: "2022",
     title: "서버실 디지털 트윈(Threejs)",
     skills: [
       "react",
@@ -216,7 +229,11 @@ const projectsData = [
       "redux",
       "antd",
     ],
-    description: "Threejs 학습을 하기 위한 토이 프로젝트(서버실 디지털 트윈)",
+    description: [
+      "Threejs 학습을 하기 위한 토이 프로젝트(서버실 디지털 트윈)",
+      "디지털 전환(Digital Transformation, DX)에 확신이 생겨 퇴사 후 창업하여 데모로 만든 첫 DX 프로젝트",
+      "디지털 전환(Digital Transformation, DX)이란 인공지능, 클라우드, 데이터 등 디지털 기술을 기반으로 기업의 조직 문화, 비즈니스 모델 및 산업 생태계를 혁신하고 고객과 시장의 변화에 대응하여 새로운 가치를 창출할 수 있는 기업으로 변환하는 과정",
+    ],
     mainImage: "/projects/server_dt5.png",
     imgs: [
       "/projects/server_dt5.png",
@@ -230,10 +247,50 @@ const projectsData = [
   },
   {
     year: "2021",
-    title: "유명 IT 대기업 업무 시스템",
+    title: "근무관리 시스템",
     skills: [
       "react",
+      "java spring",
+      "jpa",
+      "swagger ui",
+      "charjs",
+      "typescript",
+      "module css",
+      "redux",
+      "mui",
+    ],
+    description: [
+      "풀스택 개발 토이 프로젝트(React + Spring(JPA))",
+      "풀스택을 지향했지만 팀 단위가 실 단위로 확장되어 프론트엔드 팀장을 맡게 되어 react를 공부하기 위해 진행한 토이 프로젝트",
+    ],
+    mainImage: "/projects/rt2.png",
+    imgs: [
+      "/projects/rt2.png",
+      "/projects/rt.png",
+      "/projects/rt3.png",
+      "/projects/rt4.png",
+      "/projects/rt5.png",
+      "/projects/rt6.png",
+      "/projects/rt7.png",
+    ],
+    visible: true,
+    link: "",
+  },
+  {
+    year: "2021",
+    title: "유명 IT 대기업 업무 시스템(2021~2014)",
+    skills: [
+      "java",
+      "react",
       "react native",
+      "C#",
+      ".net",
+      "jQuery",
+      "redis",
+      "jenkins",
+      "docker",
+      "jpa",
+      "graphql",
       "webpack",
       "typescript",
       "styled-components",
@@ -242,9 +299,13 @@ const projectsData = [
       "craco",
       "lerna",
     ],
-    description: "유명 IT 대기업에서 사용하는 업무 관리 시스템",
-    mainImage: "",
-    imgs: [""],
+    description: [
+      "유명 IT 대기업에서 사용하는 업무 관리 시스템 (보안으로 인한 이미지 제공 불가)",
+      "백엔드 개발자로 5년, 프론트엔드 개발자로 3년 개발 업무 진행 (풀 스택 개발)",
+      "2016~2017년 react가 유명해지면서 관심히 생겨 react를 공부하기 시작함.",
+    ],
+    mainImage: "/projects/security.jpg",
+    imgs: ["/projects/security.jpg"],
     visible: false,
     link: "",
   },
@@ -321,7 +382,11 @@ export default function Projects() {
                   </Image.PreviewGroup>
                 </div>
                 <div className={styles.projectDescription}>
-                  {project.description}
+                  <ul>
+                    {project.description?.map((desc, index) => (
+                      <li key={"desc_" + index}>✨ {desc}</li>
+                    ))}
+                  </ul>
                 </div>
                 <div className={styles.projectSkills}>
                   {project?.skills?.map((skill: string, index: number) => {
