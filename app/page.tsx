@@ -1,5 +1,5 @@
 import AboutMe from "@/components/AboutMe/AboutMe";
-import GuideLine from "@/components/GuideLine/GuideLine";
+import BlueMarble from "@/components/BlueMarble/BlueMarble";
 import Projects from "@/components/Projects/Projects";
 import Skills from "@/components/Skills/Skills";
 import StrokeText from "@/components/StrokeText/StrokeText";
@@ -17,8 +17,8 @@ export default function Home() {
       <section id="projects">
         <Projects />
       </section>
-      <section id="guide-line">
-        <GuideLine />
+      <section id="bluemarble">
+        <BlueMarble />
       </section>
     </main>
   );

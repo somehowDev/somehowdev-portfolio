@@ -85,8 +85,8 @@
 
 .projectVisible {
   font-size: 12px;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: #ff5555;
+  border: 1px solid #ff5555;
   padding: 3px;
   position: absolute;
   margin-top: 3px;

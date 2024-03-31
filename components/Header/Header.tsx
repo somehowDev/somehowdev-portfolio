@@ -73,7 +73,7 @@ export default function Header() {
             <Link href="#projects" className={styles.link}>
               Projects{" "}
             </Link>
-            <Link href="#guide-line" className={styles.link}>
+            <Link href="#bluemarble" className={styles.link}>
               <div
                 style={{
                   color: "var(--primary-color)",

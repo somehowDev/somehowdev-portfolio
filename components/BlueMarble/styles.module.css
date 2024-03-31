@@ -36,7 +36,9 @@
 }
 
 .blueMarble {
+  border-radius: 10px;
   text-align: center;
+  padding-top: 20px;
   border: 1px solid white;
   width: 200px;
   height: 110px;
@@ -54,7 +56,7 @@
 .blueMarbleImageWrap {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  align-items: center;
 }
 
 .blueMarbleMobileWrap {
@@ -65,6 +67,43 @@
   align-items: center;
   gap: 10px;
   display: none;
+}
+
+.learnMoreBtn {
+  visibility: hidden;
+  margin-top: 10px; /* 버튼 위치 조정 */
+  padding: 6px 10px; /* 버튼 내부 패딩 */
+  font-size: 14px; /* 글자 크기 */
+  color: white; /* 글자 색상 */
+  background-color: transparent; /* 배경 색상 */
+  border: 1px solid white; /* 테두리 스타일 */
+  cursor: pointer; /* 커서 스타일 */
+  border-radius: 10px;
+  transition: all 0.3s ease; /* 부드러운 효과를 위한 추가 */
+}
+
+.comingBtn {
+  visibility: hidden;
+  margin-top: 10px; /* 버튼 위치 조정 */
+  padding: 6px 10px; /* 버튼 내부 패딩 */
+  font-size: 14px; /* 글자 크기 */
+  color: #ff5555; /* 글자 색상 */
+  background-color: transparent; /* 배경 색상 */
+  border: 1px solid #ff5555; /* 테두리 스타일 */
+  cursor: pointer; /* 커서 스타일 */
+  border-radius: 10px;
+  transition: all 0.3s ease; /* 부드러운 효과를 위한 추가 */
+}
+
+.blueMarble:hover .learnMoreBtn {
+  visibility: inherit;
+  background-color: var(--primary-color); /* 마우스 오버 시 배경 색상 변경 */
+  color: white; /* 마우스 오버 시 글자 색상 유지 */
+}
+
+.blueMarble:hover .comingBtn {
+  visibility: inherit;
+  color: #ff5555; /* 마우스 오버 시 글자 색상 유지 */
 }
 
 @media (max-width: 768px) {
