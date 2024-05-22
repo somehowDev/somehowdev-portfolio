@@ -10,8 +10,16 @@ const projectsData = [
   {
     year: "2024",
     title: "LLM 기반 AI 교육 플랫폼",
-    mainImage: "/projects/llm2.png",
-    imgs: ["/projects/llm2.png", "/projects/llm.png", "/projects/llm3.png"],
+    mainImage: "/projects/llm.png",
+    imgs: [
+      "/projects/llm.png",
+      "/projects/llm2.png",
+      "/projects/llm6.png",
+      "/projects/llm7.png",
+      "/projects/llm3.png",
+      "/projects/llm4.png",
+      "/projects/llm5.png",
+    ],
     skills: [
       "nextjs",
       "next-auth",
@@ -378,6 +386,7 @@ export default function Projects() {
                       height={280}
                       className={styles.projectMainImage}
                       src={project.mainImage}
+                      alt={project.title}
                     />
                   </Image.PreviewGroup>
                 </div>
