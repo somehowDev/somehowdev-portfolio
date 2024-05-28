@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "<어쩌다 개발자 />",
   description: "어쩌다 개발자 포트폴리오",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
