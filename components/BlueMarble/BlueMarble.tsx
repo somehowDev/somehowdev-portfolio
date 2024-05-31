@@ -42,21 +42,21 @@ export default function BlueMarble() {
           </div>
           <div className={styles.blueMarble}>
             HTML <br />
-            <button className={styles.comingBtn}>Coming Soon ⭐️</button>
+            <button className={styles.learnMoreBtn}>Learn 🚀🚀</button>
           </div>
           <div className={styles.blueMarble}>
             CSS <br />
-            <button className={styles.comingBtn}>Coming Soon ⭐️</button>
+            <button className={styles.learnMoreBtn}>Learn 🚀🚀</button>
           </div>
           <div className={styles.blueMarble}>
             JAVASCRIPT
             <br />
-            <button className={styles.comingBtn}>Coming Soon ⭐️</button>
+            <button className={styles.learnMoreBtn}>Learn 🚀🚀</button>
           </div>
           <div className={styles.blueMarble}>
             정리
             <br />
-            <button className={styles.comingBtn}>Coming Soon ⭐️</button>
+            <button className={styles.learnMoreBtn}>Learn 🚀🚀</button>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export default function BlueMarble() {
           <div className={styles.blueMarble}>
             Toy-Project
             <br />
-            <button className={styles.comingBtn}>Coming Soon ⭐️</button>
+            <button className={styles.learnMoreBtn}>Learn 🚀🚀</button>
           </div>
         </div>
 
