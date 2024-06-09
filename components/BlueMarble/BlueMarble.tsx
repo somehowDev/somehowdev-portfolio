@@ -21,6 +21,14 @@ export default function BlueMarble() {
           여러분도 어쩌다 개발자가 될 수 있습니다. 지금 당장 따라 해보세요
           🔥🔥🔥
         </div>
+        <div className="flex justify-center m-4">
+          <div
+            className="border cursor-pointer rounded-3xl text-[#ffc000] border-[#ffc000] w-[120px] p-2
+       hover:bg-[#ffc000] hover:text-white transform hover:scale-105 transition duration-300"
+          >
+            상세보기
+          </div>
+        </div>
       </div>
 
       <div className={styles.blueMarbleWrap}>
