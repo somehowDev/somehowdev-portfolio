@@ -64,16 +64,16 @@ export default function Header() {
               styles.menu
             }`}
           >
-            <Link href="#aboutMe" className={styles.link}>
+            <Link href="/#aboutMe" className={styles.link}>
               About
             </Link>
-            <Link href="#skills" className={styles.link}>
+            <Link href="/#skills" className={styles.link}>
               Skills
             </Link>
-            <Link href="#projects" className={styles.link}>
+            <Link href="/#projects" className={styles.link}>
               Projects{" "}
             </Link>
-            <Link href="#bluemarble" className={styles.link}>
+            <Link href="/#bluemarble" className={styles.link}>
               <div
                 style={{
                   color: "var(--primary-color)",

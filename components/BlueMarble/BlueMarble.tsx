@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function BlueMarble() {
   return (
@@ -22,12 +23,14 @@ export default function BlueMarble() {
           🔥🔥🔥
         </div>
         <div className="flex justify-center m-4">
-          <div
-            className="border cursor-pointer rounded-3xl text-[#ffc000] border-[#ffc000] w-[120px] p-2
+          <Link href={`/blueMarble`}>
+            <div
+              className="border cursor-pointer rounded-3xl text-[#ffc000] border-[#ffc000] w-[120px] p-2
        hover:bg-[#ffc000] hover:text-white transform hover:scale-105 transition duration-300"
-          >
-            상세보기
-          </div>
+            >
+              상세보기
+            </div>
+          </Link>
         </div>
       </div>
 
