@@ -22,7 +22,7 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
+.home section {
   width: 100%;
   height: 100%; /* 뷰포트 높이의 100% */
   display: flex;

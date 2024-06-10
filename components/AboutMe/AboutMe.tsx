@@ -432,15 +432,15 @@ export default function AboutMe() {
               경험을 바탕으로 한 지침을 제공하고자 합니다. <br /> <br />
               여러분의 고민과 막막함을 이해합니다.{" "}
               <span className={styles.name}>
-                "취업하고 싶지만 어디서부터 시작해야 할지"
+                {`"취업하고 싶지만 어디서부터 시작해야 할지"`}
               </span>
               {", "}
               <span className={styles.name}>
-                "전공을 어떻게 더 잘 이해할 수 있을지"
+                {`"전공을 어떻게 더 잘 이해할 수 있을지"`}
               </span>
               {", "}
               <span className={styles.name}>
-                "새로운 분야에 어떻게 첫발을 디뎌야 할지"
+                {`"새로운 분야에 어떻게 첫발을 디뎌야 할지"`}
               </span>{" "}
               등의 고민은 모두에게 익숙한 문제입니다.
               <br /> <br />

@@ -8,18 +8,20 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="h-full w-full">
-      <section id="aboutMe">
-        <AboutMe />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="bluemarble">
-        <BlueMarble />
-      </section>
+      <div className="home">
+        <section id="aboutMe">
+          <AboutMe />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="bluemarble">
+          <BlueMarble />
+        </section>
+      </div>
     </main>
   );
 }
