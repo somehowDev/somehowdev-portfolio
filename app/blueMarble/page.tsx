@@ -9,9 +9,20 @@ export default function Home() {
       <main className="bg-black text-white min-h-screen p-4">
         <div className="pt-4 pb-4 mb-4 mt-4">
           <h1 className="text-4xl font-bold  text-center">
-            <span className="text-yellow-500">어쩌다 부루마블</span>을 통해
-            우리가 배울수 있는 것들!!
+            <span className="text-yellow-500">어쩌다 부루마블</span>
+          </h1>{" "}
+          <h1 className="text-4xl font-bold text-center">
+            취업 준비에 첫번째 무료 과정!! 🧭🧭
           </h1>
+          <div className="text-center">
+            <em>개발자로서 취업준빈에 대한 가이드가 필요하신 분</em>
+          </div>{" "}
+          <div className="text-center">
+            <em>본인의 이력서에 한줄이라도 더 넣고 싶은 분</em>
+          </div>{" "}
+          <div className="text-center">
+            <em>대학생, 비전공자, 개발자를 꿈꾸는 모든 분 </em>
+          </div>
         </div>
         <section id="step1" className="p-4">
           <div className="max-w-4xl mx-auto">
