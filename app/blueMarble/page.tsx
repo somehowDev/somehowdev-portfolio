@@ -101,67 +101,50 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="step2" className="p-4">
+        <section id="step3" className="p-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
               세번째, 프론트엔드 핵심 개발 기술 - React
             </h2>
             <p className="mb-6">
-              <span className="text-yellow-500 font-bold">
-                처음부터 HTML, CSS, JAVASCRIPT를 A - Z까지 언제 배우지??
-              </span>{" "}
-              개발자 생활을 해보니 실제로{" "}
-              <span className="text-yellow-500 font-bold">
-                개념 공부를 해서 얻는 지식 보다는 프로젝트를 해보면서 얻은
-                지식의 가치
-              </span>
-              가 훨씬 크고 머리에 오래 남는다는 것을 깨달았습니다. 많은 강의에서
-              꼭 본인이 직접 타이핑 하여 따라해보라는 강사분들의 말이 전부 같은
-              의미라고 생각 합니다. 그리고 단순 따라해보는게 아니라 본인의
-              프로젝트로 남을수 있게끔 프로젝트를 관리하고 문서작업은 어떻게
-              하는지 실제로 배울수 있는 기회가 될 것 입니다.
+              React는 현대 웹 개발의 주축이며, 많은 기업이 이 기술을 요구합니다.
+              이 섹션에서는 React의 기초부터 시작해, 실제 프로젝트에 적용하는
+              과정을 배웁니다. 상태 관리, 라우팅, 그리고 고급 컴포넌트 디자인을
+              통해, 실제로 사용되는 React 애플리케이션을 만드는 법을 익힐 수
+              있습니다.
             </p>
             <ul className="list-inside mb-4">
-              <li>🔥 포트폴리오 프로젝트</li>
-              <li>🔥 프로젝트 관리 및 문서 작성법</li>
-              <li>🔥 Git commit 메세지 작성법</li>
+              <li>🔥 컴포넌트 기반 개발</li>
+              <li>🔥 React Hooks 사용하기</li>
+              <li>🔥 상태 관리 및 라우팅 기법 이해</li>
             </ul>
             <img
-              src="/images/github-guide.jpg"
-              alt="GitHub Guide"
+              src="/images/react-intro.jpg"
+              alt="Introduction to React"
               className="w-full rounded-lg mb-4 shadow-lg"
             />
           </div>
         </section>
 
-        <section id="step2" className="p-4">
+        <section id="step4" className="p-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
-              두번째, 바로 따라 해보는 HTML, CSS, JAVASCRIPT
+              네번째, 취업 준비 및 면접 준비
             </h2>
             <p className="mb-6">
-              <span className="text-yellow-500 font-bold">
-                처음부터 HTML, CSS, JAVASCRIPT를 A - Z까지 언제 배우지??
-              </span>{" "}
-              개발자 생활을 해보니 실제로{" "}
-              <span className="text-yellow-500 font-bold">
-                개념 공부를 해서 얻는 지식 보다는 프로젝트를 해보면서 얻은
-                지식의 가치
-              </span>
-              가 훨씬 크고 머리에 오래 남는다는 것을 깨달았습니다. 많은 강의에서
-              꼭 본인이 직접 타이핑 하여 따라해보라는 강사분들의 말이 전부 같은
-              의미라고 생각 합니다. 그리고 단순 따라해보는게 아니라 본인의
-              프로젝트로 남을수 있게끔 프로젝트를 관리하고 문서작업은 어떻게
-              하는지 실제로 배울수 있는 기회가 될 것 입니다.
+              취업 시장에 성공적으로 진입하기 위해서는 준비가 필요합니다. 이
+              섹션에서는 이력서 작성법, 포트폴리오 준비, 그리고 면접 기술을
+              다룹니다. 이력서에 꼭 들어가야 할 내용, 면접관에게 인상 깊은
+              대답을 하는 방법, 그리고 기술 테스트를 통과하는 전략을 배웁니다.
             </p>
             <ul className="list-inside mb-4">
-              <li>🔥 포트폴리오 프로젝트</li>
-              <li>🔥 프로젝트 관리 및 문서 작성법</li>
-              <li>🔥 Git commit 메세지 작성법</li>
+              <li>🔥 이력서와 포트폴리오 최적화</li>
+              <li>🔥 면접 시뮬레이션과 피드백</li>
+              <li>🔥 기술 면접 준비법</li>
             </ul>
             <img
-              src="/images/github-guide.jpg"
-              alt="GitHub Guide"
+              src="/images/job-interview-preparation.jpg"
+              alt="Job Interview Preparation"
               className="w-full rounded-lg mb-4 shadow-lg"
             />
           </div>
