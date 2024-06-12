@@ -58,8 +58,7 @@ export default function Home() {
             <ul className="list-inside mb-4">
               <li>🔥 자신의 브랜딩</li>
               <li>🔥 버전 관리의 중요성 이해하기</li>
-              <li>🔥 프로젝트에 대한 협업과 피드백 개선</li>
-              <li>🔥 개인 포트폴리오 구축과 전문성 강화</li>
+              <li>🔥 Github 프로필 페이지 관리</li>
             </ul>
             <img
               src="/images/github-guide.jpg"
@@ -90,10 +89,9 @@ export default function Home() {
               하는지 실제로 배울수 있는 기회가 될 것 입니다.
             </p>
             <ul className="list-inside mb-4">
-              <li>🔥 자신의 브랜딩</li>
-              <li>🔥 버전 관리의 중요성 이해하기</li>
-              <li>🔥 프로젝트에 대한 협업과 피드백 개선</li>
-              <li>🔥 개인 포트폴리오 구축과 전문성 강화</li>
+              <li>🔥 포트폴리오 프로젝트</li>
+              <li>🔥 프로젝트 관리 및 문서 작성법</li>
+              <li>🔥 Git commit 메세지 작성법</li>
             </ul>
             <img
               src="/images/github-guide.jpg"
@@ -103,18 +101,67 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="step3" className="p-4">
-          <div className="">
+        <section id="step2" className="p-4">
+          <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
-              첫번째, 토이 프로젝트 생성 및 정리
+              세번째, 프론트엔드 핵심 개발 기술 - React
             </h2>
             <p className="mb-6">
-              실제로 간단한 웹 애플리케이션을 만들면서 배운 내용을 적용해보세요.
-              완성된 프로젝트는 GitHub에 공유하게 됩니다.
+              <span className="text-yellow-500 font-bold">
+                처음부터 HTML, CSS, JAVASCRIPT를 A - Z까지 언제 배우지??
+              </span>{" "}
+              개발자 생활을 해보니 실제로{" "}
+              <span className="text-yellow-500 font-bold">
+                개념 공부를 해서 얻는 지식 보다는 프로젝트를 해보면서 얻은
+                지식의 가치
+              </span>
+              가 훨씬 크고 머리에 오래 남는다는 것을 깨달았습니다. 많은 강의에서
+              꼭 본인이 직접 타이핑 하여 따라해보라는 강사분들의 말이 전부 같은
+              의미라고 생각 합니다. 그리고 단순 따라해보는게 아니라 본인의
+              프로젝트로 남을수 있게끔 프로젝트를 관리하고 문서작업은 어떻게
+              하는지 실제로 배울수 있는 기회가 될 것 입니다.
             </p>
+            <ul className="list-inside mb-4">
+              <li>🔥 포트폴리오 프로젝트</li>
+              <li>🔥 프로젝트 관리 및 문서 작성법</li>
+              <li>🔥 Git commit 메세지 작성법</li>
+            </ul>
             <img
-              src="/images/toy-project.jpg"
-              alt="Toy Project"
+              src="/images/github-guide.jpg"
+              alt="GitHub Guide"
+              className="w-full rounded-lg mb-4 shadow-lg"
+            />
+          </div>
+        </section>
+
+        <section id="step2" className="p-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-yellow-500 mb-4">
+              두번째, 바로 따라 해보는 HTML, CSS, JAVASCRIPT
+            </h2>
+            <p className="mb-6">
+              <span className="text-yellow-500 font-bold">
+                처음부터 HTML, CSS, JAVASCRIPT를 A - Z까지 언제 배우지??
+              </span>{" "}
+              개발자 생활을 해보니 실제로{" "}
+              <span className="text-yellow-500 font-bold">
+                개념 공부를 해서 얻는 지식 보다는 프로젝트를 해보면서 얻은
+                지식의 가치
+              </span>
+              가 훨씬 크고 머리에 오래 남는다는 것을 깨달았습니다. 많은 강의에서
+              꼭 본인이 직접 타이핑 하여 따라해보라는 강사분들의 말이 전부 같은
+              의미라고 생각 합니다. 그리고 단순 따라해보는게 아니라 본인의
+              프로젝트로 남을수 있게끔 프로젝트를 관리하고 문서작업은 어떻게
+              하는지 실제로 배울수 있는 기회가 될 것 입니다.
+            </p>
+            <ul className="list-inside mb-4">
+              <li>🔥 포트폴리오 프로젝트</li>
+              <li>🔥 프로젝트 관리 및 문서 작성법</li>
+              <li>🔥 Git commit 메세지 작성법</li>
+            </ul>
+            <img
+              src="/images/github-guide.jpg"
+              alt="GitHub Guide"
               className="w-full rounded-lg mb-4 shadow-lg"
             />
           </div>
