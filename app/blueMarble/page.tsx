@@ -8,10 +8,10 @@ export default function Home() {
       </Head>
       <main className="bg-black text-white min-h-screen p-4">
         <div className="pt-4 pb-4 mb-4 mt-4">
-          <h1 className="text-4xl font-bold  text-center">
+          <h1 className="text-5xl font-bold text-center m-2">
             <span className="text-yellow-500">어쩌다 부루마블</span>
           </h1>{" "}
-          <h1 className="text-4xl font-bold text-center">
+          <h1 className="text-3xl font-bold text-center">
             취업 준비에 첫번째 무료 과정!! 🧭🧭
           </h1>
           <div className="text-center">
@@ -24,6 +24,7 @@ export default function Home() {
             <em>대학생, 비전공자, 개발자를 꿈꾸는 모든 분 </em>
           </div>
         </div>
+
         <section id="step1" className="p-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
@@ -55,10 +56,10 @@ export default function Home() {
               본인을 브랜딩화 하도록 해보아요. 🚀🚀
             </p>
             <ul className="list-inside mb-4">
+              <li>🔥 자신의 브랜딩</li>
               <li>🔥 버전 관리의 중요성 이해하기</li>
               <li>🔥 프로젝트에 대한 협업과 피드백 개선</li>
               <li>🔥 개인 포트폴리오 구축과 전문성 강화</li>
-              <li>🔥 오픈 소스 프로젝트에 기여하며 네트워킹</li>
             </ul>
             <img
               src="/images/github-guide.jpg"
@@ -69,17 +70,34 @@ export default function Home() {
         </section>
 
         <section id="step2" className="p-4">
-          <div className="">
+          <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
-              첫번째, HTML, CSS, JavaScript 따라해보기
+              두번째, 바로 따라 해보는 HTML, CSS, JAVASCRIPT
             </h2>
             <p className="mb-6">
-              웹 개발의 기초를 다지는 이 섹션에서는 HTML 구조, CSS 스타일링 및
-              JavaScript 기능에 대해 배웁니다.
+              <span className="text-yellow-500 font-bold">
+                처음부터 HTML, CSS, JAVASCRIPT를 A - Z까지 언제 배우지??
+              </span>{" "}
+              개발자 생활을 해보니 실제로{" "}
+              <span className="text-yellow-500 font-bold">
+                개념 공부를 해서 얻는 지식 보다는 프로젝트를 해보면서 얻은
+                지식의 가치
+              </span>
+              가 훨씬 크고 머리에 오래 남는다는 것을 깨달았습니다. 많은 강의에서
+              꼭 본인이 직접 타이핑 하여 따라해보라는 강사분들의 말이 전부 같은
+              의미라고 생각 합니다. 그리고 단순 따라해보는게 아니라 본인의
+              프로젝트로 남을수 있게끔 프로젝트를 관리하고 문서작업은 어떻게
+              하는지 실제로 배울수 있는 기회가 될 것 입니다.
             </p>
+            <ul className="list-inside mb-4">
+              <li>🔥 자신의 브랜딩</li>
+              <li>🔥 버전 관리의 중요성 이해하기</li>
+              <li>🔥 프로젝트에 대한 협업과 피드백 개선</li>
+              <li>🔥 개인 포트폴리오 구축과 전문성 강화</li>
+            </ul>
             <img
-              src="/images/web-dev-basics.jpg"
-              alt="Web Development Basics"
+              src="/images/github-guide.jpg"
+              alt="GitHub Guide"
               className="w-full rounded-lg mb-4 shadow-lg"
             />
           </div>
