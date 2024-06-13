@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -60,11 +61,24 @@ export default function Home() {
               <li>🔥 버전 관리의 중요성 이해하기</li>
               <li>🔥 Github 프로필 페이지 관리</li>
             </ul>
-            <img
-              src="/images/github-guide.jpg"
-              alt="GitHub Guide"
-              className="w-full rounded-lg mb-4 shadow-lg"
-            />
+            <div className="relative w-full h-[250px] sm:h-[500px] mb-4">
+              <Image
+                src={"/bluemarble/github.png"}
+                alt="github"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
+            <div className="relative w-full h-[250px] sm:h-[500px] ">
+              <Image
+                src={"/bluemarble/github2.png"}
+                alt="github"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
           </div>
         </section>
 
