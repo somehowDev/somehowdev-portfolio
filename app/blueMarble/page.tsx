@@ -73,7 +73,7 @@ export default function Home() {
             <div className="relative w-full h-[250px] sm:h-[500px] ">
               <Image
                 src={"/bluemarble/github2.png"}
-                alt="github"
+                alt="github2"
                 layout="fill"
                 objectFit="container"
                 priority={true}
@@ -107,11 +107,24 @@ export default function Home() {
               <li>🔥 프로젝트 관리 및 문서 작성법</li>
               <li>🔥 Git commit 메세지 작성법</li>
             </ul>
-            <img
-              src="/images/github-guide.jpg"
-              alt="GitHub Guide"
-              className="w-full rounded-lg mb-4 shadow-lg"
-            />
+            <div className="relative w-full h-[250px] sm:h-[500px] mb-4">
+              <Image
+                src={"/bluemarble/html.png"}
+                alt="html"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
+            <div className="relative w-full h-[250px] sm:h-[500px] ">
+              <Image
+                src={"/bluemarble/html2.png"}
+                alt="html2"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
           </div>
         </section>
 
@@ -122,21 +135,35 @@ export default function Home() {
             </h2>
             <p className="mb-6">
               React는 현대 웹 개발의 주축이며, 많은 기업이 이 기술을 요구합니다.
-              이 섹션에서는 React의 기초부터 시작해, 실제 프로젝트에 적용하는
-              과정을 배웁니다. 상태 관리, 라우팅, 그리고 고급 컴포넌트 디자인을
-              통해, 실제로 사용되는 React 애플리케이션을 만드는 법을 익힐 수
-              있습니다.
+              이 섹션에서는 React의 공식 문서를 기반으로 기초부터 시작해, 실제
+              프로젝트에 적용하는 과정을 배웁니다. 상태 관리, 라우팅, 그리고
+              고급 컴포넌트 디자인을 통해, 실제로 사용되는 React 애플리케이션을
+              만드는 법을 익힐 수 있습니다.
             </p>
             <ul className="list-inside mb-4">
+              <li>🔥 REACT 공식 문서 파헤치기</li>
               <li>🔥 컴포넌트 기반 개발</li>
               <li>🔥 React Hooks 사용하기</li>
               <li>🔥 상태 관리 및 라우팅 기법 이해</li>
             </ul>
-            <img
-              src="/images/react-intro.jpg"
-              alt="Introduction to React"
-              className="w-full rounded-lg mb-4 shadow-lg"
-            />
+            <div className="relative w-full h-[250px] sm:h-[500px] mb-4">
+              <Image
+                src={"/bluemarble/react.png"}
+                alt="react"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
+            <div className="relative w-full h-[250px] sm:h-[500px] ">
+              <Image
+                src={"/bluemarble/react2.png"}
+                alt="react2"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
           </div>
         </section>
 
