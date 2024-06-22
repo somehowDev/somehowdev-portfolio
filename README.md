@@ -3,12 +3,12 @@
 ## 실행 화면
 
 <div style="text-align:center;">
-<img src="./public/main/1.png" width="550" height="400" title="dev"/>
-<img src="./public/main/2.png" width="550" height="400" title="dev"/>
+<img src="./public/main/1.png" width="400" height="400" title="dev"/>
+<img src="./public/main/2.png" width="400" height="400" title="dev"/>
 </div>
 <div style="text-align:center;">
-<img src="./public/main/3.png" width="550" height="400" title="dev"/>
-<img src="./public/main/4.png" width="550" height="400" title="dev"/>
+<img src="./public/main/3.png" width="400" height="400" title="dev"/>
+<img src="./public/main/4.png" width="400" height="400" title="dev"/>
 </div>
 <br /><br />
 
