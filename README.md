@@ -1,5 +1,17 @@
 # 어쩌다 개발자 포트폴리오
 
+## 실행 화면
+
+<div style="text-align:center;">
+<img src="./public/main/1.png" width="550" height="400" title="dev"/>
+<img src="./public/main/2.png" width="550" height="400" title="dev"/>
+</div>
+<div style="text-align:center;">
+<img src="./public/main/3.png" width="550" height="400" title="dev"/>
+<img src="./public/main/4.png" width="550" height="400" title="dev"/>
+</div>
+<br /><br />
+
 ## 인사말
 
 안녕하세요, 여러분의 여정을 함께할 '어쩌다 개발자'입니다. 👋✨<br />
