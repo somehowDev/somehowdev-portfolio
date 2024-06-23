@@ -12,21 +12,29 @@ export default function Home() {
           <h1 className="text-5xl font-bold text-center m-2">
             <span className="text-yellow-500">어쩌다 부루마블</span>
           </h1>{" "}
-          <h1 className="text-3xl font-bold text-center">
+          <h1 className="text-3xl font-bold text-center mb-4">
             취업 준비에 첫번째 무료 과정!! 🧭🧭
           </h1>
           <div className="text-center">
-            <em>개발자로서 취업준빈에 대한 가이드가 필요하신 분</em>
-          </div>{" "}
-          <div className="text-center">
-            <em>본인의 이력서에 한줄이라도 더 넣고 싶은 분</em>
-          </div>{" "}
-          <div className="text-center">
-            <em>대학생, 비전공자, 개발자를 꿈꾸는 모든 분 </em>
+            <div>
+              <strong>
+                ⭐️<em> 개발자로서 취업 준비 가이드가 필요하신 분</em>
+              </strong>
+            </div>{" "}
+            <div>
+              <strong>
+                ⭐️ <em> 본인의 이력서에 한줄이라도 더 넣고 싶은 분</em>{" "}
+              </strong>
+            </div>{" "}
+            <div>
+              <strong>
+                ⭐️ <em> 대학생, 비전공자, 개발자를 꿈꾸는 모든 분</em>{" "}
+              </strong>
+            </div>
           </div>
         </div>
 
-        <section id="step1" className="p-4">
+        <section id="step1" className="p-4 mb-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
               첫번째, GitHub: 개인 브랜딩의 시작
@@ -82,7 +90,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="step2" className="p-4">
+        <div className="w-full h-[1px] border-b border-yellow-500 mb-8"></div>
+
+        <section id="step2" className="p-4 mb-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
               두번째, 바로 따라 해보는 HTML, CSS, JAVASCRIPT
@@ -128,17 +138,26 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="step3" className="p-4">
+        <div className="w-full h-[1px] border-b border-yellow-500 mb-8"></div>
+
+        <section id="step3" className="p-4 mb-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
               세번째, 프론트엔드 핵심 개발 기술 - React
             </h2>
             <p className="mb-6">
-              React는 현대 웹 개발의 주축이며, 많은 기업이 이 기술을 요구합니다.
-              이 섹션에서는 React의 공식 문서를 기반으로 기초부터 시작해, 실제
-              프로젝트에 적용하는 과정을 배웁니다. 상태 관리, 라우팅, 그리고
-              고급 컴포넌트 디자인을 통해, 실제로 사용되는 React 애플리케이션을
-              만드는 법을 익힐 수 있습니다.
+              <span className="text-yellow-500 font-bold">React</span>는 현대 웹
+              개발의 주축이며, 많은 기업이 이 기술을 요구합니다. 이 섹션에서는
+              <span className="text-yellow-500 font-bold">
+                React의 공식 문서
+              </span>
+              를 기반으로 기초부터 시작해, 실제 프로젝트에 적용하는 과정을
+              배웁니다.{" "}
+              <span className="text-yellow-500 font-bold">
+                상태 관리, 라우팅, 그리고 고급 컴포넌트 디자인{" "}
+              </span>
+              을 통해, 실제로 사용되는 React 애플리케이션을 만드는 법을 익힐 수
+              있습니다.
             </p>
             <ul className="list-inside mb-4">
               <li>🔥 REACT 공식 문서 파헤치기</li>
@@ -167,27 +186,71 @@ export default function Home() {
           </div>
         </section>
 
+        <div className="w-full h-[1px] border-b border-yellow-500 mb-8"></div>
+
         <section id="step4" className="p-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-yellow-500 mb-4">
-              네번째, 취업 준비 및 면접 준비
+              네번째, 전략적인 취업 준비
             </h2>
             <p className="mb-6">
-              취업 시장에 성공적으로 진입하기 위해서는 준비가 필요합니다. 이
-              섹션에서는 이력서 작성법, 포트폴리오 준비, 그리고 면접 기술을
-              다룹니다. 이력서에 꼭 들어가야 할 내용, 면접관에게 인상 깊은
-              대답을 하는 방법, 그리고 기술 테스트를 통과하는 전략을 배웁니다.
+              어느덧 면접자가 아닌 면접관의 입장으로 지내오면서 축적된 데이터를
+              바탕으로, 취업 시장에 성공적으로 진입하기 위해서는{" "}
+              <span className="text-yellow-500 font-bold">준비</span>,{" "}
+              <span className="text-yellow-500 font-bold">전략</span>이
+              필요합니다. 이 섹션에서는{" "}
+              <span className="text-yellow-500 font-bold">이력서 작성법</span>,
+              <span className="text-yellow-500 font-bold">포트폴리오 준비</span>
+              , 그리고{" "}
+              <span className="text-yellow-500 font-bold">
+                면접 기술 및 예상 질문
+              </span>
+              을 다룹니다.{" "}
+              <span className="text-yellow-500 font-bold">
+                이력서에 꼭 들어가야 할 내용
+              </span>
+              ,{" "}
+              <span className="text-yellow-500 font-bold">
+                면접관에게 인상 깊은 대답을 하는 방법
+              </span>
+              , 그리고{" "}
+              <span className="text-yellow-500 font-bold">
+                기술 테스트를 통과하는 전략
+              </span>
+              을 배웁니다.
             </p>
             <ul className="list-inside mb-4">
               <li>🔥 이력서와 포트폴리오 최적화</li>
               <li>🔥 면접 시뮬레이션과 피드백</li>
               <li>🔥 기술 면접 준비법</li>
             </ul>
-            <img
-              src="/images/job-interview-preparation.jpg"
-              alt="Job Interview Preparation"
-              className="w-full rounded-lg mb-4 shadow-lg"
-            />
+            <div className="relative w-full h-[250px] sm:h-[500px] mb-4">
+              <Image
+                src={"/bluemarble/interview.png"}
+                alt="interview"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
+            <div className="relative w-full h-[250px] sm:h-[500px] mb-4">
+              <Image
+                src={"/bluemarble/interview2.png"}
+                alt="interview2"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
+            <div className="relative w-full h-[250px] sm:h-[500px] mb-4">
+              <Image
+                src={"/bluemarble/interview3.png"}
+                alt="interview3"
+                layout="fill"
+                objectFit="container"
+                priority={true}
+              />
+            </div>
           </div>
         </section>
       </main>
