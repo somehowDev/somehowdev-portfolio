@@ -13,11 +13,12 @@ const projectsData = [
     mainImage: "/projects/llm.png",
     imgs: [
       "/projects/llm.png",
+      "/projects/llm3.png",
+      "/projects/llm4.png",
+      "/projects/llm8.png",
       "/projects/llm2.png",
       "/projects/llm6.png",
       "/projects/llm7.png",
-      "/projects/llm3.png",
-      "/projects/llm4.png",
       "/projects/llm5.png",
     ],
     skills: [
